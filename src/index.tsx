@@ -19,7 +19,8 @@
  */
 
 import React, { createElement } from 'react';
-import { matchPath, useLocation } from 'react-router';
+//import { matchPath, useLocation } from 'react-router';
+import { useLocation } from "@reach/router"
 
 type Location = ReturnType<typeof useLocation>;
 
